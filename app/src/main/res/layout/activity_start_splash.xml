@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             tools:ignore="UselessParent"
-            android:background="@drawable/logo">
+            android:background="@drawable/logocomp">
 
             <ImageView
                 android:layout_width="wrap_content"
