@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_ng"
-    tools:context=".StartSplashActivity">
+    tools:context=".StartSplashActivity"
+    android:background="@drawable/bg_splash">
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -12,24 +12,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        android:background="@drawable/ciudad">
+        android:background="@drawable/logo">
 
         <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            tools:ignore="UselessParent"
-            android:background="@drawable/logocomp">
+            android:layout_gravity="center|bottom">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/animacion"
-                android:src="@anim/animaciontren"
-                android:baselineAlignBottom="true"
+                android:id="@+id/ImageAnimacion"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
                 android:adjustViewBounds="true"
-                android:layout_gravity="bottom" />
+                android:contentDescription="animacion de tren" />
+
         </LinearLayout>
     </FrameLayout>
 </FrameLayout>
