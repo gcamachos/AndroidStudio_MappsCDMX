@@ -11,11 +11,10 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
         android:background="@drawable/logo">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|bottom">
 
@@ -23,9 +22,7 @@
                 android:id="@+id/ImageAnimacion"
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
-                android:adjustViewBounds="true"
-                android:contentDescription="animacion de tren" />
-
+                android:adjustViewBounds="true" />
         </LinearLayout>
     </FrameLayout>
 </FrameLayout>
